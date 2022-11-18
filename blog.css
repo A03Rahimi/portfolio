@@ -1,0 +1,230 @@
+/* Main Background Color */
+html{
+  background-color: #0b111d;
+  position: relative;
+   scroll-behavior: smooth;
+   padding-bottom: 1rem;
+}
+
+/* Body is Shrinked from Sides */
+body{
+  margin: 0rem 20rem 0rem 20rem;
+}
+
+/* Navigation Bar Background Color and Position */
+header nav{
+  background-color: #0f4a74;
+  padding: 7px;
+  padding-bottom: 0.75rem;
+  margin: 0rem -20rem 0rem -20rem;
+  text-align:left;
+}
+
+/* Logo Position and Size */
+img#logo{
+  margin-top: -1.3rem;
+  margin-left: 0.0rem;
+  width: 10rem;
+}
+
+/* Navigation bar Links Font and Color and Position */
+header nav ul li{
+  font-family: arial;
+  color: white;
+  display:inline;
+  font-weight: bold;
+  font-size: 42pt;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0.0rem;
+  text-decoration: underline;
+  border-radius: 8%;
+  padding: 0.2rem;
+}
+
+/* Left Side Navigation Bars Font Family and Position  */
+.left nav ul li{
+  font-family: arial;
+  margin-left: -1.5rem;
+}
+
+/* Right Side Navigation Bars Font Family and Position */
+.right nav ul li{
+  font-family: arial;
+  margin-left: -1.5rem;
+}
+
+/* Navigation Bar 'Blog' Position */
+header nav ul li#leftMost{
+  margin-left: 17rem;
+}
+
+/* Side Navigation Bar Links Style */
+nav a:link, nav a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 0.5rem;
+}
+
+/* Side Navigation Links Hover Color */
+nav a:hover, nav a:active {
+  background-color: #0f273f;
+}
+
+/* Navigation Bar Links Position Correction */
+header nav ul{
+  margin: -5.5rem 0rem 0rem 0rem;
+}
+
+/* The Profile Position, Background Color, and Default Font */
+article{
+  margin: 4.2rem 0rem 1.5rem 0rem;
+  padding: 1% 0% 1% 0%;
+  background-color: white;
+  font-weight: normal;
+  border-radius: 1rem;
+  margin-top: 4.1rem;
+  box-shadow: 3px 4px 10px black;
+}
+
+/* Headings Font and Position */
+h1, h2, h3, h4, h5, h6{
+  margin: 0rem 1rem 0rem 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Footer Font, Font Color, Background Color, and Position */
+footer{
+  font-family: Arial;
+  background-color:  #0f4a74;
+  margin: 0% 0% 0% 0%;
+  padding: 1rem;
+  color: AliceBlue;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+} 
+
+/* Footer Text Font and Position */
+#footerline{
+  font-style: italic;
+  color: white;
+  margin: 0.5rem 0rem; 
+  font-size: 90%;
+}
+
+/* Left Floating Aside Position and Size */
+.left{
+  position: absolute;
+  left: 3.5rem;
+  top: 10rem;
+  width: 13rem;
+}
+
+/* Right Floating Aside Position and Size */
+.right{
+  position: absolute;
+  right: 3.5rem;
+  top: 10rem;
+  width: 13rem;
+}
+
+/* Left Side Navigation Box Beauty */
+.left nav{
+  background-color: #0f4a74;
+  border-radius: 1rem;
+  border: hidden;
+  box-shadow: 3px 4px 10px black;
+  padding: 0.1rem;
+}
+
+/* Side Navigation Lists Style and Position */
+.left nav ul, .right nav ul{
+  list-style: none;
+  text-align: center;
+  margin-left: -1rem;
+}
+
+/* Right Side Navigation Box Beauty */
+.right nav{
+  background-color: #0f4a74;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+  border:hidden;
+  padding: 0.1rem;
+}
+
+/* Right Floating Box Text Position and Font */
+.right nav p#middle{
+  font-family: arial;
+  color: white;
+  margin-left: 0rem;
+  text-align: center;
+}
+
+/* Right Floating Box Links Style */
+.right nav a:link, .right nav a:visited {
+  background-color:#0f273f;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 0.5rem;
+}
+
+/* Right Floating Box Links Hover Color */
+.right nav a:hover, .right nav a:active {
+  background-color: #86bcde;
+}
+
+/* Horizontal Lines Margin */
+hr{
+  margin: 0rem 2rem;
+  border: 1px solid black;
+}
+
+/* Blog Title Font */
+.blogTitle{
+  font-size: 110%;
+}
+
+/* Blog Body and Title Position and font */
+.blog, .blogTitle{
+  margin: 1rem 4rem;
+  font-family: arial, sans-serif;
+}
+
+/* Blog Date and Time Font, Position and Size */
+.time{
+  font-family: arial;
+  font-size: 75%;
+  margin-left: 60rem;
+  margin-top: 1rem;
+  margin-bottom: -0.5rem;
+}
+
+aside#bottom{
+  top: 20rem;
+}
+
+#months{
+	margin-left: 2.8rem;
+  padding: 0.5rem 0.1rem 0.5rem 1rem;
+	border-radius: 0.5rem;
+}
+
+#years{
+	margin-left: 2.8rem;
+  padding: 0.5rem 2.35rem 0.5rem 1rem;
+	border-radius: 0.5rem;
+}
+
+#monthsLabel{
+  color: white;
+  font-size: 80%;
+  font-family: arial;
+  margin-left: 3rem;
+}

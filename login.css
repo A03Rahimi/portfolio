@@ -1,0 +1,83 @@
+/* Page Zoom */
+*{
+	zoom: 107%;
+}
+
+/* Background Color, Font, and Scroll Behaviour */
+html{
+  font-family: arial, sans-serif;
+  background-color: #0b111d;
+  scroll-behavior: smooth;
+}
+
+/* Form Position and Color and Shadow */
+fieldset{
+  width: 40rem; 
+  color: white;
+  background-color: #0f4a74;
+  margin: 10rem 0rem 0rem 25.4rem;
+  box-shadow: 3px 4px 10px black;
+  border: hidden;
+  border-radius: 1rem;
+  background-color: #0f4a74;
+  padding: 1rem 0rem;
+}
+
+
+/* Logo Size */
+img#logo{
+  width: 6rem;
+}
+
+/* Buttons Style */
+.buttons{
+  background-color: #0f4a74;
+  color: white;
+  border: hidden;
+  font-size: 100%;
+  margin-left:1rem;
+  border-radius: 10px;
+  background-color:#0f273f;
+  padding: 0.5rem 2rem;
+}
+
+/* Buttons Position */
+.buttons#back{
+  margin-left:11.5rem;
+}
+
+/* Buttons Hover Color */
+.buttons:hover{
+  background-color: #86bcde;
+}
+
+/* Login Header Position and Font */
+#topLogin{
+	text-align: center;
+	margin-left: 15.3rem;
+	color: white;
+	font-weight: bold;
+	font-size: 200%
+}
+
+/* Input Fields Size */
+input{
+  width: 18rem; 
+  padding: 0.5rem 0.5rem;
+  margin-left: 9.2rem;
+  border-radius: 0.5rem;
+  border:hidden;
+}
+
+/* Extra Links Color */
+.white{
+  color: white;
+  text-decoration: none;
+}
+
+/* Wrong credentials error message */
+.wrongCredentialsWarning{
+  color: rgb(255, 111, 111);
+  font-size: 70%;
+  margin-left: 9.5rem;
+}

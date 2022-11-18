@@ -1,0 +1,155 @@
+/* Main Background Color */
+html{
+  background-color: #0b111d;
+  position: relative;
+  font-family: arial, sans-serif;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+/* Body is Shrinked from Sides */
+body{
+  margin: 0rem 13rem 0rem 13rem;
+}
+
+/* Navigation Bar Background Color and Position */
+header nav{
+  background-color: #0f4a74;
+  padding: 7px;
+  padding-bottom: 23px;
+  margin: 0rem -13rem 0rem -13rem;
+  text-align:left;
+}
+
+/* Logo Position and Size */
+img#logo{
+  margin-top: -1.3rem;
+  margin-left: 0.0rem;
+  width: 10rem;
+}
+
+/* Navigation bar Links Font and Color and Position */
+header nav ul li{
+  font-family: arial;
+  color: white;
+  display:inline;
+  font-weight: bold;
+  font-size: 90%;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0.0rem;
+}
+
+/* Nav Links Position */
+header nav ul li#leftMost{
+  margin-left: 10rem;
+}
+
+/* Nav Links Design and Color */
+nav a:link, nav a:visited {
+  background-color:#3380b4;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 0.3rem;
+}
+
+/* Nav Links Color on Hover */
+nav a:hover, nav a:active {
+  background-color: #0f273f;
+}
+
+/* Navigation Bar Links Position Correction */
+header nav ul{
+  margin: -5rem 0rem 0rem 0rem;
+}
+
+/* The Profile Position, Background Color, and Default Font */
+article{
+  margin: 1.5rem 0rem 1.5rem 0rem;
+  padding: 1% 0% 5% 0%;
+  background-color: white;
+  font-weight: normal;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+}
+
+/* Headings Font and Position */
+h1, h2, h3, h4, h5, h6{
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* About Me Picture Size and Shadow and Position */
+img#myPhoto{
+  width: 12rem;
+  box-shadow: 2pt 2pt 3pt #0b111d;
+  padding:-0.2rem;
+  margin-top: -17rem;
+  border-radius: 0.5rem;
+  border: hidden;
+}
+
+/* Footer Font, Font Color, Background Color, and Position */
+footer{
+  font-family: Arial;
+  background-color:  #0f4a74;
+  margin: 0% 0% 0% 0%;
+  padding: 1rem;
+  color: AliceBlue;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+} 
+
+/* Footer Text Font and Position */
+#footerline{
+  font-style: italic;
+  color: white;
+  margin: 0.5rem 0rem; 
+  font-size: 90%;
+}
+
+/* About Me Text Position and Line Spacing */
+section#AboutMe p {
+	margin: 1rem 1rem 0 16rem;
+	line-height: 2rem;
+}
+
+/* About Me Header Position */
+section#AboutMe h2{
+	 margin: 2rem 1rem 0 16rem;
+ }
+
+/* Horizontal lines Style */
+hr{
+  margin: 0rem 2rem;
+  border: 1px solid black;
+}
+
+/* Contact List Style and Position */
+section#contact ul{
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+/* Contact List Items Position */
+section#contact ul li{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Contact Type Logos Position */
+section#contact ul li img{
+  max-height: 3rem;
+  margin-top: -1rem;
+  margin-right:1rem;
+  float: left;
+}
+
+
+
+
+
+

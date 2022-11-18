@@ -1,0 +1,249 @@
+/* Main Background Color */
+html{
+  background-color: #0b111d;
+  position: relative;
+  font-family: arial, sans-serif;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+/* Body is Shrinked from Sides */
+body{
+  margin: 0rem 20rem 0rem 20rem;
+}
+
+/* Navigation Bar Background Color and Position */
+header nav{
+  background-color: #0f4a74;
+  padding: 7px;
+  padding-bottom: 0.75rem;
+  margin: 0rem -20rem 0rem -20rem;
+  text-align:left;
+}
+
+
+/* Logo Position and Size */
+img#logo{
+  margin-top: -1.3rem;
+  margin-left: 0.0rem;
+  width: 10rem;
+}
+
+/* Navigation bar Links Font and Color and Position */
+header nav ul li{
+  font-family: arial;
+  color: white;
+  display:inline;
+  font-weight: bold;
+  font-size: 42pt;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0.0rem;
+  text-decoration: underline;
+  border-radius: 8%;
+  padding: 0.2rem;
+}
+
+/* Navigation bar Links Font and Color and Position */
+.left nav ul li{
+  font-family: arial;
+  margin-left: -1.5rem;
+}
+
+/* Right Floating Box Button Position and Font */
+.right nav ul li{
+  font-family: arial;
+  margin-left: -1.5rem;
+}
+
+/* Top 'Blog' Position */
+header nav ul li#leftMost{
+  margin-left: 17rem;
+}
+
+/* Navigation Box Links Style */
+nav a:link, nav a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 0.5rem;
+}
+
+/* Navigation Box Links Hover Color */
+nav a:hover, nav a:active {
+  background-color: #0f273f;
+}
+
+/* Navigation Bar Links Position Correction */
+header nav ul{
+  margin: -5.5rem 0rem 0rem 0rem;
+}
+
+/* The Profile Position, Background Color, and Default Font */
+article{
+  width: 80rem;
+  margin: 1.5rem 0rem 1.5rem 0rem;
+  background-color: #86bcde;
+  font-weight: normal;
+  border-radius: 1rem;
+  border:hidden;
+  margin-top: 4.1rem;
+}
+
+/* Headings Font and Position */
+h1, h2, h3, h4, h5, h6{
+  margin: 0rem 1rem 0rem 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+
+/* Footer Font, Font Color, Background Color, and Position */
+footer{
+  width: 78rem;
+  font-family: Arial;
+  background-color:  #0f4a74;
+  margin: 0% 0% 0% 0%;
+  padding: 1rem;
+  color: AliceBlue;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+} 
+
+/* Footer Text Font and Position */
+#footerline{
+  font-style: italic;
+  color: white;
+  margin: 0.5rem 0rem; 
+  font-size: 90%;
+}
+
+/* Left Floating Box Position and Size */
+.left{
+  position: absolute;
+  left: 3.5rem;
+  top: 10rem;
+  width: 13rem;
+}
+
+/* Right Floating Box Position and Size */
+.right{
+  position: absolute;
+  right: 3.5rem;
+  top: 10rem;
+  width: 13rem;
+}
+
+/* Left Floating Box Color and Beauty */
+.left nav{
+  background-color: #0f4a74;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+  padding: 0.1rem;
+}
+
+/* Side Floating Box List Style */
+.left nav ul, .right nav ul{
+  list-style: none;
+  text-align: center;
+  margin-left: -1rem;
+}
+
+/* Left Floating Box Color and Beauty */
+.right nav{
+  background-color: #0f4a74;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+  padding: 0.1rem;
+}
+
+/* Right Floating Box Header Font and Position  */
+.right nav p#middle{
+  font-family: arial;
+  color: white;
+  margin-left: 0rem;
+  text-align: center;
+}
+
+/* Side Navigation Bar Links Style */
+.right nav a:link, .right nav a:visited  {
+  background-color:#0f273f;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 0.5rem;
+}
+
+/* Side Navigation Bar Links Hover Color */
+.right nav a:hover, .right nav a:active {
+  background-color: #86bcde;
+}
+
+
+/* Form Position and Color and Shadow */
+fieldset{
+  width: 80rem;
+  color: white;
+  background-color: #86bcde;
+  margin: 0rem 0rem;
+  margin-top: 0rem;
+  box-shadow: 3px 4px 10px black;
+  border: hidden;
+  border-radius: 1rem;
+  padding: 1.3rem 0rem;
+}
+
+
+
+/* Buttons Style */
+.buttons{
+  color: white;
+  border: hidden;
+  font-size: 100%;
+  margin-left:1rem;
+  border-radius: 0.8rem;
+  background-color:#0f4a74;
+  padding: 1rem 3rem;
+}
+
+/* Buttons Hover Color */
+.buttons:hover{
+  background-color: #0f273f;
+}
+
+/* Form Header Position and Size and Font */
+#topBlog{
+	text-align: center;
+	margin-left: 35.6rem;
+	color: Black;
+	font-weight: bold;
+	font-size: 200%;
+	margin-top: 1rem;
+}
+
+
+/* Input Fields Font and Size */
+input, textarea{
+  resize:none;
+  width: 50rem; 
+  font-family: arial, sans-serif;
+  padding: 1rem;
+  margin-left: 13.9rem;
+  border-radius: 0.8rem;
+  border: hidden;
+}
+
+
+/* Buttons Position */
+.buttons#post{
+  margin-left:31.4rem;
+}
+
+/* empty fields highlight */
+.notFilledHighlight{
+  background-color: rgb(229, 145, 145);
+}

@@ -1,0 +1,128 @@
+/* Main Background Color */
+html{
+  background-color: #0b111d;
+  position: relative;
+  font-family: arial, sans-serif;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+/* Body is Shrinked from Sides */
+body{
+  margin: 0rem 13rem 0rem 13rem;
+}
+
+/* Navigation Bar Background Color and Position */
+header nav{
+  background-color: #0f4a74;
+  padding: 7px;
+  padding-bottom: 23px;
+  margin: 0rem -13rem 0rem -13rem;
+  text-align:left;
+}
+
+/* Logo Position and Size */
+img#logo{
+  margin-top: -1.3rem;
+  margin-left: 0.0rem;
+  width: 10rem;
+}
+
+/* Navigation bar Links Font and Color and Position */
+header nav ul li{
+  color: white;
+  display:inline;
+  font-weight: bold;
+  font-size: 90%;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0.0rem;
+  font-family: arial;
+}
+
+/* Navigation Links Position */
+header nav ul li#leftMost{
+  margin-left: 10rem;
+}
+
+/* Navigation Bar Links Style */
+nav a:link, nav a:visited {
+  background-color:#3380b4;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 0.3rem;
+}
+
+/* Navigation Bar Links Hover Color */
+nav a:hover, nav a:active {
+  background-color: #0f273f;
+}
+
+/* Navigation Bar Links Position Correction */
+header nav ul{
+  margin: -5rem 0rem 0rem 0rem;
+}
+
+/* The Profile Position, Background Color, and Default Font */
+article{
+  margin: 1.5rem 0rem 1.5rem 0rem;
+  padding: 1% 0% 1% 0%;
+  background-color: white;
+  font-weight: normal;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+}
+
+/* Headings Font and Position */
+h1, h2, h3, h4, h5, h6{
+  margin: 0rem 1rem 0rem 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Footer Font, Font Color, Background Color, and Position */
+footer{
+  font-family: Arial;
+  background-color:  #0f4a74;
+  margin: 0% 0% 0% 0%;
+  padding: 1rem;
+  color: AliceBlue;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 10px black;
+} 
+
+/* Footer Text Font and Position */
+#footerline{
+  font-style: italic;
+  color: white;
+  margin: 0.5rem 0rem; 
+  font-size: 90%;
+}
+
+/* Lists Style */
+li{
+  margin-top: 2rem;
+}
+
+/* Experience Text Position */
+p{
+	margin: 1.2rem;
+	line-height: 1.5rem;
+}
+
+/* Headers Position */
+h2{
+	margin: 1rem;
+}
+
+/* Horizontal Lines Style */
+hr{
+  margin: 0rem 2rem;
+  border: 1px solid black;
+}
+
+
+
+
